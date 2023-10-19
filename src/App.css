@@ -1,0 +1,250 @@
+.x1{
+    height: 420px;
+    width: 500px;
+    background-color: #EBF5FB;
+    top: 50px;
+    left:100px;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly */
+  }
+  
+  
+  .x2{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #FDFEFE;
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    
+  }
+  .x3{
+    height: 100px;
+    width: 100%;
+    background-color: #FDFEFE;
+    border-radius: 10px;
+    
+  }
+  .x4{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: small;
+    font-style:normal;
+    color: #ABB2B9;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    /* position: absolute; */
+    /* padding: 5px; */
+  
+  }
+  
+  .x6{
+    padding: 7px;
+  }
+  .x5{
+    background-color: #9B59B6;
+    height: 50px;
+    width: 100%;
+    border-width: 0px;
+    /* box-shadow: h-offset v-offset blur spread color; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20;
+    margin-bottom: 20px;
+  }
+  .x5:hover,
+  .x5:focus {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .x5:active {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+  .x8{
+    height: 150px;
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    /* margin: 10px; */
+    
+  }
+  .mirror-image {
+    display: inline-block;
+    transform: scaleX(-1);
+  }
+  .x10{
+    /* background-color: black; */
+    height: 50px;
+    /* position: absolute;  */
+     width: 485px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+    /* margin-top: 10px; */
+  } 
+  
+  .x12{
+    display: flex;
+    width: 150px;
+    height: 10px;
+    /* background-color: black; */
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+  }
+  .x13{
+    background-color: #AED6F1;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .x14{
+    margin-left: 5px;
+    background-color: #D5DBDB;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .svg-image {
+    width: 20px; /* Adjust the width as per your requirement */
+    height: 20px; /* Automatically adjust the height based on the aspect ratio */
+    padding-left: 5px;
+    margin-right: 4px;
+  }
+  .cc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* .dropdown-menu {
+    position: relative;
+    margin-right:100%;
+
+  }
+  
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-image: url('https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/external-arrow-arrows-those-icons-lineal-color-those-icons-1.png');
+    background-repeat: no-repeat;
+    height: 4px;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 5px;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .dropdown-toggle.open {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .dropdown-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #D5DBDB;
+    /* border: 1px solid #ccc; */
+    /* width: max-content;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s;
+  }
+  
+  .dropdown-items.open {
+    visibility: visible;
+    opacity: 1;
+  } */ */
+  .body{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+  }
+  .x_new{
+    width: 100%;
+  }
+
+.change{
+    background-color: transparent;
+    border: none;
+    
+    cursor: pointer;
+    background-image: url('https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/external-arrow-arrows-those-icons-lineal-color-those-icons-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+    margin-right: 1px;
+    height: 15px;
+    /* margin-right: 4px; */
+}
+.x15{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.x16-toggle.open
+{
+
+    width: 100px;
+    top: 28px;
+    left:5px;
+    position: absolute;
+    background-color: #D5DBDB;
+
+}
+.x17-items{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 6px;
+    padding-bottom: -1px;
+}
+.x17-items.open{
+    visibility:visible;
+}
+.x18{
+    display: flex;
+    justify-content: space-evenly;
+    border-width: 0.3px;
+    background-color: transparent;
+}
